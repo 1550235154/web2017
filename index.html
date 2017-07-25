@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>单击首发</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="clearfix">
+		<div class="share">
+			<div class="bdsharebuttonbox share-btn">
+				<span>分享到：</span>
+				<a href="#" class="bds_tqq share-btn-tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+				<a href="#" class="bds_qzone  share-btn-qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+			</div>
+			<script>
+			window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+			</script>
+
+			<div class="share-startGame">
+				<a href="">开始游戏</a><span>|</span><a href="">进入游戏</a>
+			</div>
+		</div>
+	</div>
+
+	<form class="reg" action="">
+		<h2 class="reg-tit">预约赢限量首发豪礼</h2>
+		<p class="reg-slogan">名额有限先到先得  预约成功还送首发豪华大礼包</p>
+		<p class="reg-num">预约名额剩余:<span>80%</span></p>
+		<div class="reg-input clearfix">
+			<strong class="reg-input-name">手机号：</strong>
+			<input class="reg-input-text" type="text">
+			<input class="reg-input-ver" type="button" value="获取验证码">
+		</div>
+		<div class="reg-input clearfix MT10">
+			<strong class="reg-input-name">验证码：</strong>
+			<input class="reg-input-text" type="text">
+		</div>
+		<div class="reg-input clearfix">
+			<strong class="reg-input-name">QQ：</strong>
+			<input class="reg-input-text" type="text">
+		</div>
+		<input class="reg-sub" type="submit" value="点击提交">
+	</form>
+
+	<div class="dialog" style="display: none;">
+		<div class="dialog-success">
+			<a class="dialog-success-close" href="javascript:void(0)"></a>
+			<h3 class="dialog-success-tit">恭喜您预约成功！<i></i></h3>
+			<p class="dialog-success-info">预约手机号为13888888888，我们将在首测开启时通过短信发送给您礼包码及下载地址
+请注意查收，非常感谢您的支持！</p>
+			<div class="dialog-success-link clearfix bdsharebuttonbox">
+				<a href="#" class="bds_sqq" data-cmd="sqq">告诉QQ好友</a>
+				<a class="bds_qzone" href="#" data-cmd="qzone">分享到QQ空间</a>
+			</div>
+		</div>
+
+		<div class="dialog-err" style="display: none;/*隐藏*/">
+			<a class="dialog-err-close" href="javascript:void(0)"></a>
+			<p class="dialog-err-info">验证码错误！</p>
+		</div>
+	</div>
+</body>
+</html>

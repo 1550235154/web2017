@@ -1,0 +1,44 @@
+/*初始化*/
+body,h1,h2,h3,h4,p,form,div,ul,li,dl,dt,dd,a,img,span,em,i,strong,b,label,input,textarea,select{margin: 0;padding: 0;}
+li{list-style: none;}
+a{color:#fff; text-decoration: none;}
+a:hover{ color:#ea0200;}
+img{ border:0; vertical-align: top;}
+em,i{font-style: normal;}
+body{ width:1090px; margin:0 auto; background:url(../img/bg.jpg) no-repeat center top #101010; color:#dbdbdb; font-size: 18px; font-family:"方正兰亭","微软雅黑";}
+.clearfix:before,.clearfix:after{content: " ";display: block;}
+.clearfix:after{clear:both;}
+/*主要*/
+.share{ float: right; width:276px; margin-top: 12px;}
+.share-btn{ float:left; height:25px; line-height: 25px; padding:0 6px; background:#141011; border-radius: 4px;}
+.share-btn span{float:left; color:#fefeff; font-size:12px;}
+.share-btn a{ width:16px; height:16px; padding:0 !important; margin:4px 0 0 0  !important; background:url(../img/share-icon.png) no-repeat !important;}
+.share-btn .share-btn-tqq{ margin-left: 2px !important; margin-right: 5px !important;}
+.share-btn .share-btn-qzone{ background-position: right top  !important;}
+.share-startGame{ float:left; margin-left:16px; line-height:25px; font-size:12px;}
+.share-startGame span{ margin:0 4px;}
+.reg{ width:564px; height:525px; background:url(../img/reg-icon.png) no-repeat; margin:323px 0 0 471px; padding-left: 92px; padding-bottom:25px;}
+.reg-tit{line-height:58px; width:516px; text-align: center; color:#fff; font-size:24px;}
+.reg-slogan{ line-height:36px; text-align:center; margin-top:22px; color:#a7b1b4; font-size:18px; font-weight:bold; width:524px;}
+.reg-num{ height:30px; line-height:30px; text-align:center; font-size:24px; color:#a7b1b4;font-weight:bold; width:512px; padding-bottom: 8px;}
+.reg-num span{color:#ea0200; margin-left:14px; font-size:28px;}
+.reg-input{margin-top:9px; height:35px;}
+.reg-input-name{float:left; width:126px; line-height:35px; text-align:right; color:#dbdbdb;}
+.reg-input-text{float:left; width:214px; height:33px; line-height:33px; padding:0 5px; border:#4c4c4c 1px solid; background:#2f2f2f; color:#fff;}
+.reg-input-ver{ float:left; width:109px; height:35px; background:url(../img/reg-ver.png) no-repeat; border:0; font-size:16px; color:#fff; margin:1px 0 0 10px; 
+cursor: pointer;/*鼠标变为手指样式*/}
+.reg-sub{ display:block; width:245px; line-height:68px; text-align:center; border:0; background:url(../img/reg-sub.png) no-repeat; margin:106px 0 0 145px; cursor:pointer; color:#fff; font-size:30px; font-weight:bold;}
+/*弹出*/
+.dialog{position: fixed; left:0; top:0; width:100%; height:100%;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#CC000000', endColorstr='#CC000000');background:rgba(0,0,0,0.8);}
+.dialog-success,.dialog-err{ position:absolute; left:50%; top:50%; width:756px;  margin-left:-378px; }
+.dialog-success{margin-top:-208px; height:416px; background:url(../img/dialog-icon.png) no-repeat;}
+.dialog-err{ height:201px; margin-top: -100px; background:url(../img/dialog-err-icon.png) no-repeat;}
+.dialog-success-close,.dialog-err-close{ display:block; width:64px; height:44px; margin:10px 0 0 648px;}
+.dialog-success-tit{ position:relative; line-height:54px; text-align:center; width:742px; font-size:36px; color:#c59f56; margin-top:21px;}
+.dialog-success-tit i{position:absolute; left:50%; margin-left:-105px; bottom: -2px; width:180px; height:1px; background:#c59f56;}
+.dialog-success-info{ width:622px; line-height:21px; margin:49px 0 0 67px; color:#c59f56; font-size:16px; text-align:center;}
+.dialog-success-link{margin:64px 0 0 155px;}
+.dialog-success-link a{float:left; width:204px !important; height:57px !important; text-align:center; line-height:57px !important; color:#493006; font-size:22px  !important; background:url(../img/dialog-success-icon.png) no-repeat !important; margin:0 15px 0 0 !important; padding:0  !important;}
+.dialog-err-info{line-height:60px; text-align:center; margin-top:20px; font-size:36px; color:#c59f56; font-weight:bold;}
+/*公共*/
+.MT10{margin-top:10px; }
